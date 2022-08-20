@@ -2,6 +2,8 @@ import { ReactNode } from 'react'
 import Head from 'next/head'
 import { useRouter } from 'next/router'
 
+import Header from './Header'
+
 interface ContainerProps {
   children: ReactNode
 }
@@ -16,15 +18,16 @@ function Container(props: ContainerProps) {
   }
 
   return (
-    <div>
+    <>
       <Head>
         <title>{meta.title}</title>
         <meta name="robots" content="follow, index" />
         <meta content={meta.description} name="description" />
         <link rel="canonical" href={`https://haithu.vn${router.asPath}`} />
       </Head>
+      <Header />
       <main>{children}</main>
-    </div>
+    </>
   )
 }
 

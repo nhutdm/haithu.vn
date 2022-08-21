@@ -6,7 +6,7 @@ function Footer() {
     <footer className="bg-stack-100 px-8 pt-16">
       <div className="flex flex-col md:flex-row container mx-auto max-w-5xl">
         <div className="flex-full md:basis-4/12 pb-4">
-          <h3 className="pb-6 underline decoration-4 underline-offset-4 decoration-stack-400">
+          <h3 className="pb-6 text-stack-800 underline decoration-4 underline-offset-4 decoration-stack-400">
             Dịch Vụ Tang Lễ Hai Thư
           </h3>
           <div className="font-serif">
@@ -21,7 +21,7 @@ function Footer() {
           </div>
         </div>
         <div className="flex-full md:basis-4/12 pb-4">
-          <h3 className="pb-6 underline decoration-4 underline-offset-4 decoration-stack-400">
+          <h3 className="pb-6 text-stack-800 underline decoration-4 underline-offset-4 decoration-stack-400">
             Liên Hệ
           </h3>
           <div className="font-serif">
@@ -30,7 +30,7 @@ function Footer() {
               <br />
               <span>
                 <a
-                  className="text-stack-500 hover:text-stack-600 underline"
+                  className="text-stack-500 hover:text-stack-600 underline py-4"
                   target="_blank"
                   rel="noopener noreferrer"
                   href="tel:+84986815702"
@@ -39,7 +39,7 @@ function Footer() {
                 </a>{' '}
                 |{' '}
                 <a
-                  className="text-stack-500 hover:text-stack-600 underline"
+                  className="text-stack-500 hover:text-stack-600 underline py-4"
                   target="_blank"
                   rel="noopener noreferrer"
                   href="tel:+84987636794"
@@ -53,7 +53,7 @@ function Footer() {
               <br />
               <span>
                 <a
-                  className="text-stack-500 hover:text-stack-600 underline"
+                  className="text-stack-500 hover:text-stack-600 underline py-4"
                   target="_blank"
                   rel="noopener noreferrer"
                   href="tel:+84983143459"
@@ -65,14 +65,14 @@ function Footer() {
           </div>
         </div>
         <div className="flex-full md:basis-4/12 pb-4">
-          <h3 className="pb-6 underline decoration-4 underline-offset-4 decoration-stack-400">
+          <h3 className="pb-6 text-stack-800 underline decoration-4 underline-offset-4 decoration-stack-400">
             Mạng Xã Hội
           </h3>
           <div className="font-serif">
             <p>
               <span>
                 <a
-                  className="text-stack-500 hover:text-stack-600 underline"
+                  className="text-stack-500 hover:text-stack-600 underline py-4"
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://www.facebook.com/HaiThu.DonDuong/"
@@ -84,7 +84,7 @@ function Footer() {
             <p>
               <span>
                 <a
-                  className="text-stack-500 hover:text-stack-600 underline"
+                  className="text-stack-500 hover:text-stack-600 underline py-4"
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://www.google.com/maps/dir/10.737437,106.6702616/11.8303158,108.5830941"

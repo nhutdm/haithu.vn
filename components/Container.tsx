@@ -3,6 +3,7 @@ import Head from 'next/head'
 import { useRouter } from 'next/router'
 
 import Header from './Header'
+import Footer from './Footer'
 
 interface ContainerProps {
   children: ReactNode
@@ -27,6 +28,7 @@ function Container(props: ContainerProps) {
       </Head>
       <Header />
       <main>{children}</main>
+      <Footer />
     </>
   )
 }

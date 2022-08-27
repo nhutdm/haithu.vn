@@ -9,10 +9,10 @@ function Footer() {
       <div className="flex flex-col md:flex-row container mx-auto max-w-5xl">
         {footerData.map((f) => (
           <div key={f.name} className="flex-full md:basis-4/12 pb-4">
-            <h3 className="pb-6 text-stack-800 underline decoration-4 underline-offset-4 decoration-stack-400">
+            <h3 className="pb-6 text-lg text-stack-800 underline decoration-4 underline-offset-4 decoration-stack-400">
               {f.name}
             </h3>
-            <div className="font-serif">
+            <div className="text-base font-serif">
               {f.contents && f.contents.length > 0 && (
                 <>
                   {f.contents?.map((c) => (
@@ -43,7 +43,7 @@ function Footer() {
           </div>
         ))}
       </div>
-      <div className="container max-w-5xl mx-auto py-4 font-serif text-xs text-center">
+      <div className="container max-w-5xl mx-auto py-4 font-serif text-sm text-center">
         <span>&copy; {currentYear} Hai Thư</span>
       </div>
     </footer>
